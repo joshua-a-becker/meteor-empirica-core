@@ -9,6 +9,7 @@ import AuthorizedContainer from "./ui/containers/AuthorizedContainer.jsx";
 import PublicContainer from "./ui/containers/PublicContainer.jsx";
 import StageTimeWrapper from "./ui/components/StageTimeWrapper.jsx";
 import Centered from "./ui/components/Centered.jsx";
+import GlobalConfigs from "./api/global-configs/global-configs.js";
 import { AlertToaster } from "./ui/components/Toasters.jsx";
 
 const config = {};
@@ -69,4 +70,4 @@ const Empirica = {
 };
 
 export default Empirica;
-export { StageTimeWrapper, Centered, AlertToaster, ConsentButton };
+export { StageTimeWrapper, Centered, AlertToaster, ConsentButton, GlobalConfigs };

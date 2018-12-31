@@ -10,6 +10,7 @@ import { Players } from "./players/players.js";
 import { Rounds } from "./rounds/rounds.js";
 import { Stages } from "./stages/stages.js";
 import { Treatments } from "./treatments/treatments.js";
+import { GlobalConfigs } from "./global-configs/global-configs.js";
 
 export const collections = [
   Batches,
@@ -23,5 +24,6 @@ export const collections = [
   Players,
   Rounds,
   Stages,
-  Treatments
+  Treatments,
+	GlobalConfigs
 ];

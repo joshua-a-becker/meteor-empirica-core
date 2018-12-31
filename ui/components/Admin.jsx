@@ -11,7 +11,8 @@ const configurationPaths = [
   "/admin/factors",
   "/admin/factors/archived",
   "/admin/lobby-configurations",
-  "/admin/lobby-configurations/archived"
+  "/admin/lobby-configurations/archived",
+	"/admin/global-configurations"
 ];
 
 import {
@@ -34,6 +35,7 @@ import AdminBatchesContainer from "../containers/admin/AdminBatchesContainer.jsx
 import AdminFactorsContainer from "../containers/admin/AdminFactorsContainer.jsx";
 import AdminGames from "./admin/AdminGames.jsx";
 import AdminLobbyConfigsContainer from "../containers/admin/AdminLobbyConfigsContainer.jsx";
+import AdminGlobalConfigsContainer from "../containers/admin/AdminGlobalConfigsContainer.jsx";
 import AdminExport from "./admin/AdminExport.jsx";
 import AdminPlayersContainer from "../containers/admin/AdminPlayersContainer.jsx";
 import AdminTreatmentsContainer from "../containers/admin/AdminTreatmentsContainer.jsx";
@@ -267,6 +269,10 @@ export default class Admin extends React.Component {
                   path="/admin/lobby-configurations"
                   name="Lobby Configurations"
                 />
+								<NavBarLink
+                  path="/admin/global-configurations"
+                  name="Global Config"
+                />
                 <NavbarDivider />
                 <Button
                   text="Import"
@@ -435,6 +441,7 @@ export default class Admin extends React.Component {
                 archived: false
               })}
             />
+						<Route path="/admin/global-configurations" component={AdminGlobalConfigsContainer} />
             <Route
               path="/admin/factors/archived"
               component={withStaticProps(AdminFactorsContainer, {

@@ -29,3 +29,6 @@ import "../../api/rounds/methods.js";
 import "../../api/stages/methods.js";
 import "../../api/treatments/methods.js";
 import "../../api/treatments/server/publications.js";
+import "../../api/global-configs/global-configs.js";
+import "../../api/global-configs/methods.js";
+import "../../api/global-configs/server/publications.js";
