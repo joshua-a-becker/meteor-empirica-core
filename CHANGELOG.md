@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.6.0"></a>
+# 0.6.0 (2019-02-10)
+
+
+### Bug Fixes
+
+* **game:** increase estimated game finshed time ([352176a](https://github.com/empiricaly/meteor-empirica-core/commit/352176a)), closes [#47](https://github.com/empiricaly/meteor-empirica-core/issues/47)
+
+
+
+<a name="0.5.0"></a>
+# 0.5.0 (2019-01-22)
+
+
+### Bug Fixes
+
+* **bots:** fix bots callback arguments ([4454e69](https://github.com/empiricaly/meteor-empirica-core/commit/4454e69)), closes [#44](https://github.com/empiricaly/meteor-empirica-core/issues/44)
+
+
+
+<a name="0.4.0"></a>
+# 0.4.0 (2019-01-18)
+
+
+### Bug Fixes
+
+* keep data set on players in intro steps on game creation ([4dd3223](https://github.com/empiricaly/meteor-empirica-core/commit/4dd3223)), closes [#37](https://github.com/empiricaly/meteor-empirica-core/issues/37)
+
+
+
 <a name="0.3.0"></a>
 # 0.3.0 (2018-11-27)
 

@@ -1,6 +1,6 @@
 {
   "name": "meteor-empirica-core",
-  "version": "0.3.0",
+  "version": "0.6.0",
   "description": "Core Meteor package for the experiment Empirica platform.",
   "main": "server.js",
   "repository": "git@github.com:empiricaly/meteor-empirica-core.git",
@@ -8,7 +8,9 @@
   "license": "MIT",
   "scripts": {
     "commit": "npx git-cz",
-    "release": "standard-version -s -a"
+    "release": "standard-version -s -a",
+    "push-git": "git push --follow-tags origin master",
+    "publish-meteor": "meteor publish"
   },
   "standard-version": {
     "scripts": {
