@@ -35,7 +35,6 @@ export default class Public extends React.Component {
   };
 
   handleOpenAltPlayer = event => {
-    const { playerIdParam } = Meteor.settings.public;
     event.preventDefault();
 
     // check to see if a playerId is required
