@@ -52,12 +52,13 @@ export default class GameLobby extends React.Component {
         <div className="game-lobby">
           <NonIdealState
             icon={IconNames.TIME}
-            title="Lobby"
+            title="Game Assignment"
             description={
               <>
-                <p>Please wait for the game to be ready...</p>
+                <p>Attempting to match you to a game...</p>
                 <p>
-                  {exisiting} / {total} players ready.
+                  This may take up to {lobbyConfig.timeoutInSeconds} seconds.
+                  Please do not leave this page.
                 </p>
               </>
             }
